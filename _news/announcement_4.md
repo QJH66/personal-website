@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received a provisional offer for recommended admission to the master’s program at ZJU <span role="img" aria-label="ZJU emblem" style="display: inline-block; width: 1.05em; height: 1.1em; vertical-align: -0.15em; margin-left: 0.15em; background: url('{{ '/assets/img/zju-logo.png' | relative_url }}') center / 185% auto no-repeat;"></span>. 🎉
+I received a provisional offer for recommended admission to the master’s program at ZJU <img src="{{ '/assets/img/zju-emblem.svg' | relative_url }}" alt="ZJU emblem" width="28" height="28" style="display: inline-block; width: 28px; height: 28px; object-fit: contain; vertical-align: middle; margin: 0 0.15em 0 0.12em;">. 🎉

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I began my undergraduate studies at NJUPT <span role="img" aria-label="NJUPT emblem" style="display: inline-block; width: 1.05em; height: 1.1em; vertical-align: -0.15em; margin-left: 0.15em; background: url('{{ '/assets/img/njupt-logo.png' | relative_url }}') center top / 100% auto no-repeat;"></span>. 🎉
+I began my undergraduate studies at NJUPT <img src="{{ '/assets/img/njupt-emblem.svg' | relative_url }}" alt="NJUPT emblem" width="28" height="28" style="display: inline-block; width: 28px; height: 28px; object-fit: contain; vertical-align: middle; margin: 0 0.15em 0 0.12em;">. 🎉

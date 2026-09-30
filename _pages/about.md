@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'School of IC, ZJU <img src="https://www.zju.edu.cn/_upload/article/images/c3/98/1fb1d281492eb477a098ef7a2901/05966b26-ab45-470d-94c1-99b1e02d12f4.png" alt="Zhejiang University logo" style="height: 1em; width: auto; vertical-align: -0.12em; margin-left: 0.18em; margin-right: 0.1em;"> | Advanced IC Manufacturing | Incoming M.S.'
+subtitle: 'School of IC, ZJU <img src="/personal-website/assets/img/zju-emblem.svg" alt="ZJU emblem" width="24" height="24" style="width: 24px; height: 24px; object-fit: contain; vertical-align: middle; margin: 0 0.15em;"> | Advanced IC Manufacturing | Incoming M.S.'
 
 profile:
   align: right
