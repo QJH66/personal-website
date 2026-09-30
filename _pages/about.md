@@ -26,10 +26,10 @@ latest_posts:
 ---
 
 <style>
-.post-title,
-.post-title .font-weight-bold {
-  font-weight: 500 !important;
-}
+  .post-title,
+  .post-title .font-weight-bold {
+    font-weight: 500 !important;
+  }
 </style>
 
 👋 **Hi, I’m Jiahao Qi.**
