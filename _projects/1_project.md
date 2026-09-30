@@ -1,81 +1,234 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Bending-Insensitive Flexible Tactile Sensor
+description: Neutral-axis Ecoflex/Ti₃C₂Tₓ/GO sensor for robust tactile sensing under bending.
+img: assets/img/projects/sensor-structure.jpg
+permalink: /projects/flexible-tactile-sensor/
 importance: 1
-category: work
-related_publications: true
+category: research
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<style>
+  .sensor-project {
+    --project-soft-bg: rgba(127, 127, 127, 0.045);
+    --project-card-radius: 15px;
+  }
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+  .sensor-project .project-kicker {
+    margin: 0.35rem 0 0.65rem;
+    color: var(--global-text-color-light);
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+  }
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+  .sensor-project .project-lead {
+    max-width: 820px;
+    margin-bottom: 1rem;
+    font-size: 1.12rem;
+    line-height: 1.72;
+  }
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  .sensor-project .project-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0 0 1.8rem;
+  }
+
+  .sensor-project .project-chip {
+    padding: 0.24rem 0.62rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+  }
+
+  .sensor-project .project-figure {
+    margin: 1.2rem 0 0.45rem;
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: var(--project-card-radius);
+    background: var(--project-soft-bg);
+  }
+
+  .sensor-project .project-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .sensor-project .project-caption {
+    margin: 0.45rem 0 0;
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .sensor-project .project-section {
+    margin: 2.7rem 0;
+  }
+
+  .sensor-project .project-section h2 {
+    margin-bottom: 0.85rem;
+    font-size: 1.65rem;
+  }
+
+  .sensor-project .project-section p {
+    max-width: 850px;
+    line-height: 1.72;
+  }
+
+  .sensor-project .project-split {
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .sensor-project .project-split .project-figure {
+    margin: 0;
+  }
+
+  .sensor-project .result-note {
+    margin-top: 0.8rem;
+    padding: 0.85rem 1rem;
+    border-left: 3px solid var(--global-theme-color);
+    background: var(--project-soft-bg);
+    font-size: 0.92rem;
+  }
+
+  .sensor-project .project-footer-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 1rem;
+    margin-top: 2.8rem;
+  }
+
+  .sensor-project .project-mini-card {
+    padding: 1.15rem 1.2rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+  }
+
+  .sensor-project .project-mini-card h3 {
+    margin: 0 0 0.55rem;
+    font-size: 1.05rem;
+  }
+
+  .sensor-project .project-mini-card p {
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .sensor-project .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 0.8rem;
+  }
+
+  .sensor-project .project-links a {
+    display: inline-block;
+    padding: 0.3rem 0.68rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 0.82rem;
+  }
+
+  .sensor-project .project-links a:hover {
+    border-color: var(--global-theme-color);
+  }
+
+  @media (max-width: 760px) {
+    .sensor-project .project-split,
+    .sensor-project .project-footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="sensor-project">
+
+<div class="project-kicker">Research Project · Flexible Electronics</div>
+
+<p class="project-lead">
+  A flexible tactile sensor built around a symmetric <strong>Ecoflex/Ti₃C₂Tₓ/GO/Ecoflex</strong> sandwich structure. The central sensing layer is positioned near the neutral axis to suppress bending-induced resistance drift while preserving distinct responses to stretching and pressing.
+</p>
+
+<div class="project-chips">
+  <span class="project-chip">Flexible Electronics</span>
+  <span class="project-chip">Ti₃C₂Tₓ / GO</span>
+  <span class="project-chip">Neutral Axis</span>
+  <span class="project-chip">Piezoresistive Sensing</span>
+  <span class="project-chip">Sensors 2026</span>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="project-figure">
+  <img src="{{ '/assets/img/projects/sensor-structure.jpg' | relative_url }}" alt="Sandwich structure and bent configuration of the flexible tactile sensor">
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<p class="project-caption">Sandwich device architecture with the conductive layer embedded between two Ecoflex substrates.</p>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="project-section project-split">
+  <div class="project-figure">
+    <img src="{{ '/assets/img/projects/neutral-axis.jpg' | relative_url }}" alt="Neutral-axis model of the multilayer sensor under bending">
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div>
+    <h2>Neutral-Axis Design</h2>
+    <p>
+      The conductive Ti₃C₂Tₓ/GO layer is placed close to the neutral axis, where axial strain during bending is minimal. This mechanically decouples bending from the electrical response while retaining sensitivity to the deformations we actually want to detect.
+    </p>
+    <div class="result-note"><strong>Bending response:</strong> ΔR/R₀ remains below 1% across the tested curvature range.</div>
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="project-section">
+  <h2>Fabrication & Prototype</h2>
+  <p>
+    The device was fabricated through sequential Ecoflex casting, Ti₃C₂Tₓ/GO sensing-layer formation, copper-electrode integration, and final encapsulation into a symmetric sandwich structure.
+  </p>
+  <div class="project-figure">
+    <img src="{{ '/assets/img/projects/sensor-fabrication.jpg' | relative_url }}" alt="Fabrication process and physical prototype of the flexible sensor">
+  </div>
+</div>
+
+<div class="project-section">
+  <h2>Selective Mechanical Response</h2>
+  <p>
+    The sensor shows negligible resistance fluctuation during bending, but clear and repeatable signals under stretching, short press, long press, and nail press — the key behavior the neutral-axis structure was designed to achieve.
+  </p>
+  <div class="project-figure">
+    <img src="{{ '/assets/img/projects/sensor-response.jpg' | relative_url }}" alt="Electromechanical responses under bending, stretching, and pressing">
+  </div>
+</div>
+
+<div class="project-footer-grid">
+  <div class="project-mini-card">
+    <h3>My Contribution</h3>
+    <p>Device fabrication · Characterization · Electrical testing · Data analysis · Manuscript writing</p>
+  </div>
+
+  <div class="project-mini-card">
+    <h3>Publication</h3>
+    <p>
+      <strong>Neutral-Axis Ti₃C₂Tₓ/GO Sandwich Sensor with Bending Immunity and Deep Learning Tactile Recognition</strong><br>
+      <em>Sensors</em> 26(8), 2471 · 2026 · First author
+    </p>
+    <div class="project-links">
+      <a href="https://www.mdpi.com/1424-8220/26/8/2471" target="_blank" rel="noopener">Paper ↗</a>
+      <a href="https://doi.org/10.3390/s26082471" target="_blank" rel="noopener">DOI ↗</a>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13120495/pdf/sensors-26-02471.pdf" target="_blank" rel="noopener">PDF ↗</a>
+    </div>
+  </div>
+</div>
+
+<p class="project-caption" style="margin-top: 1.1rem;">Figures adapted from the published <em>Sensors</em> paper.</p>
+
+</div>
