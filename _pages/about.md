@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: School of IC, ZJU | Advanced IC Manufacturing | Incoming M.S.
 
 profile:
   align: right
