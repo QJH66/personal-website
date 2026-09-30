@@ -30,6 +30,27 @@ latest_posts:
   .post-title .font-weight-bold {
     font-weight: 500 !important;
   }
+
+  .post > article > .profile {
+    width: 190px;
+    max-width: 24%;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .post > article > .profile img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 575.98px) {
+    .post > article > .profile {
+      float: none !important;
+      width: 170px;
+      max-width: 70%;
+      margin: 0 auto 1.5rem;
+    }
+  }
 </style>
 
 👋 **Hi, I’m Jiahao Qi.**
