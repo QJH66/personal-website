@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: School of IC, ZJU | Advanced IC Manufacturing | Incoming M.S.
+subtitle: 'School of IC, ZJU <img src="https://www.zju.edu.cn/_upload/article/images/c3/98/1fb1d281492eb477a098ef7a2901/05966b26-ab45-470d-94c1-99b1e02d12f4.png" alt="Zhejiang University logo" style="height: 1em; width: auto; vertical-align: -0.12em; margin-left: 0.18em; margin-right: 0.1em;"> | Advanced IC Manufacturing | Incoming M.S.'
 
 profile:
   align: right
@@ -34,8 +34,8 @@ latest_posts:
 
 👋 **Hi, I’m Jiahao Qi.**
 
-🔬 I’m an incoming M.S. student at the **School of Integrated Circuits, Zhejiang University**, focusing on **advanced IC manufacturing and semiconductor processing**.
+I’m an incoming M.S. student at the **School of Integrated Circuits, Zhejiang University**, focusing on **advanced IC manufacturing and semiconductor processing**.
 
-🤖 Beyond semiconductors, I’m also exploring **AI agents, scientific computing, and new ways of building with AI**.
+Beyond semiconductors, I’m also exploring **AI agents, scientific computing, and new ways of building with AI**.
 
-☕ Always happy to chat about **research, technology, or just something interesting**.
+Always happy to chat about **research, technology, or just something interesting**. ☕
