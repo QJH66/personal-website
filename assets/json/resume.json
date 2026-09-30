@@ -3,7 +3,6 @@
     "name": "Clover_Qijihao",
     "label": "Final-Year Undergraduate · Incoming Master’s Student",
     "email": "13951705697@163.com",
-    "summary": "Final-year undergraduate in Electronic Science and Technology at NJUPT, with provisional admission to ZJU’s master’s program. My research interests include advanced IC manufacturing, semiconductor processing, and flexible sensing. I also explore AI agents and scientific computing through hands-on projects.",
     "location": {
       "address": "NJUPT, Xianlin Campus, 9 Wenyuan Road",
       "city": "Nanjing",
@@ -17,33 +16,31 @@
       "institution": "Zhejiang University",
       "location": "Hangzhou, China",
       "area": "Electronic Information",
-      "studyType": "Prospective Master’s Student",
+      "studyType": "Prospective M.S.",
       "startDate": "2027-09",
       "endDate": "2030-06",
       "highlights": [
-        "Expected study period: Sep 2027 – Jun 2030.",
-        "Research focus: Advanced IC Manufacturing.",
-        "Prospective advisor: Prof. Yunlong Li.",
-        "Provisionally admitted through recommended admission."
+        "Provisionally admitted through recommended admission.",
+        "Research direction: Advanced IC Manufacturing. Advisor: Prof. Yunlong Li."
       ]
     },
     {
       "institution": "Nanjing University of Posts and Telecommunications",
       "location": "Nanjing, China",
       "area": "Electronic Science and Technology",
-      "studyType": "Undergraduate",
+      "studyType": "B.Eng. (expected)",
       "startDate": "2023-09",
       "endDate": "2027-06",
       "highlights": [
-        "Currently in the final year of undergraduate studies.",
-        "Expected graduation: Jun 2027."
+        "GPA: 4.48/5.0; rank: 2/265 (top 1%).",
+        "Selected coursework: Semiconductor Physics and Devices (98/100), Analog Electronic Circuits (97/100), Signals and Systems (98/100)."
       ]
     },
     {
       "institution": "Jiangsu Province Yancheng Middle School",
       "location": "Yancheng, China",
-      "area": "Senior Secondary Education",
-      "studyType": "High School",
+      "area": "General Education",
+      "studyType": "High School Diploma",
       "startDate": "2020-09",
       "endDate": "2023-06",
       "highlights": []
@@ -65,6 +62,11 @@
       "authors": [
         "NJUPT"
       ]
+    },
+    {
+      "title": "First Prize, National College Mathematics Competition (Non-Mathematics, Category A)",
+      "date": "2024",
+      "awarder": "National College Mathematics Competition"
     }
   ],
   "publications": [
@@ -83,7 +85,7 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Fluent; CET-4 617/710, CET-6 613/710"
     }
   ],
   "interests": [
@@ -98,21 +100,21 @@
   ],
   "certificates": [
     {
-      "name": "Cambridge Kunpeng Program — Artificial Intelligence and Robotic Automation",
+      "name": "Cambridge Kunpeng Program",
       "date": "2025-08-20",
       "issuer": "University of Cambridge",
-      "summary": "Completed a short-term program with full funding through a Jiangsu provincial scholarship."
+      "summary": "Short-term study at the University of Cambridge in artificial intelligence and robotic automation, supported by a full Jiangsu provincial scholarship."
     }
   ],
   "projects": [
     {
-      "name": "Flexible Sensor and Deep Learning-Based Tactile Recognition",
+      "name": "Flexible Sensor and Deep Learning Tactile Recognition",
       "start_date": "2024",
       "end_date": "2026",
-      "summary": "Research project at NJUPT on a neutral-axis Ti₃C₂Tₓ/GO sandwich sensor for tactile sensing with reduced bending interference.",
       "highlights": [
-        "Contributed to data curation, formal analysis, and manuscript preparation.",
-        "The project resulted in a publication in Sensors in 2026."
+        "Fabricated MXene/GO sandwich sensors and performed SEM, XRD, and Raman characterization, together with electromechanical testing.",
+        "Investigated bending interference and tactile recognition using a neutral-axis sensor design and a 1D convolutional neural network.",
+        "Contributed to experimental analysis and manuscript preparation; published in Sensors."
       ],
       "startDate": "2024",
       "endDate": "2026"

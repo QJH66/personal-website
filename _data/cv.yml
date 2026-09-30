@@ -1,106 +1,84 @@
 cv:
-  name: "Clover_Qijihao"
-  label: "Final-Year Undergraduate · Incoming Master’s Student"
-  email: "13951705697@163.com"
-  location: "Nanjing, China"
-  summary: "Final-year undergraduate in Electronic Science and Technology at NJUPT, with provisional admission to ZJU’s master’s program. My research interests include advanced IC manufacturing, semiconductor processing, and flexible sensing. I also explore AI agents and scientific computing through hands-on projects."
+  name: Clover_Qijihao
+  label: Final-Year Undergraduate · Incoming Master’s Student
+  email: 13951705697@163.com
+  location: Nanjing, China
   address:
-    street: "NJUPT, Xianlin Campus, 9 Wenyuan Road"
-    city: "Nanjing"
-    region: "Jiangsu, China"
-    postalCode: "210023"
-    countryCode: "CN"
+    street: NJUPT, Xianlin Campus, 9 Wenyuan Road
+    city: Nanjing
+    region: Jiangsu, China
+    postalCode: '210023'
+    countryCode: CN
   sections:
     Education:
-      -
-        institution: "Zhejiang University"
-        location: "Hangzhou, China"
-        area: "Electronic Information"
-        studyType: "Prospective Master’s Student"
-        start_date: "2027-09"
-        end_date: "2030-06"
-        highlights:
-          -
-            "Expected study period: Sep 2027 – Jun 2030."
-          -
-            "Research focus: Advanced IC Manufacturing."
-          -
-            "Prospective advisor: Prof. Yunlong Li."
-          -
-            "Provisionally admitted through recommended admission."
-      -
-        institution: "Nanjing University of Posts and Telecommunications"
-        location: "Nanjing, China"
-        area: "Electronic Science and Technology"
-        studyType: "Undergraduate"
-        start_date: "2023-09"
-        end_date: "2027-06"
-        highlights:
-          -
-            "Currently in the final year of undergraduate studies."
-          -
-            "Expected graduation: Jun 2027."
-      -
-        institution: "Jiangsu Province Yancheng Middle School"
-        location: "Yancheng, China"
-        area: "Senior Secondary Education"
-        studyType: "High School"
-        start_date: "2020-09"
-        end_date: "2023-06"
-    Awards:
-      -
-        title: "First-Class University Scholarship"
-        date: "2024"
-        awarder: "NJUPT"
-        authors:
-          -
-            "NJUPT"
-      -
-        title: "First-Class University Scholarship"
-        date: "2023"
-        awarder: "NJUPT"
-        authors:
-          -
-            "NJUPT"
+    - institution: Zhejiang University
+      location: Hangzhou, China
+      area: Electronic Information
+      studyType: Prospective M.S.
+      start_date: 2027-09
+      end_date: 2030-06
+      highlights:
+      - Provisionally admitted through recommended admission.
+      - 'Research direction: Advanced IC Manufacturing. Advisor: Prof. Yunlong Li.'
+    - institution: Nanjing University of Posts and Telecommunications
+      location: Nanjing, China
+      area: Electronic Science and Technology
+      studyType: B.Eng. (expected)
+      start_date: 2023-09
+      end_date: 2027-06
+      highlights:
+      - 'GPA: 4.48/5.0; rank: 2/265 (top 1%).'
+      - 'Selected coursework: Semiconductor Physics and Devices (98/100), Analog Electronic Circuits (97/100), Signals and Systems (98/100).'
+    - institution: Jiangsu Province Yancheng Middle School
+      location: Yancheng, China
+      area: General Education
+      studyType: High School Diploma
+      start_date: 2020-09
+      end_date: 2023-06
+      highlights: []
     Publications:
-      -
-        title: "Neutral-Axis Ti₃C₂Tₓ/GO Sandwich Sensor with Bending Immunity and Deep Learning Tactile Recognition"
-        authors:
-          -
-            "Jiahao Qi"
-          -
-            "Tianshun Gong"
-          -
-            "Debo Wang"
-        publisher: "Sensors"
-        releaseDate: "2026-04-17"
-        url: "https://doi.org/10.3390/s26082471"
-        summary: "Sensors, 26(8), 2471, 2026. DOI: 10.3390/s26082471."
-    Languages:
-      -
-        name: "Chinese"
-        summary: "Native"
-      -
-        name: "English"
-        summary: "Fluent"
-    Interests:
-      -
-        name: "Research and Technology"
-        keywords: "Semiconductor devices and advanced IC manufacturing; flexible electronics and intelligent sensing; AI agents and scientific computing."
-    Certificates:
-      -
-        name: "Cambridge Kunpeng Program — Artificial Intelligence and Robotic Automation"
-        date: "2025-08-20"
-        issuer: "University of Cambridge"
-        summary: "Completed a short-term program with full funding through a Jiangsu provincial scholarship."
+    - title: Neutral-Axis Ti₃C₂Tₓ/GO Sandwich Sensor with Bending Immunity and Deep Learning Tactile Recognition
+      authors:
+      - Jiahao Qi
+      - Tianshun Gong
+      - Debo Wang
+      publisher: Sensors
+      releaseDate: '2026-04-17'
+      url: https://doi.org/10.3390/s26082471
+      summary: 'Sensors, 26(8), 2471, 2026. DOI: 10.3390/s26082471.'
     Projects:
-      -
-        name: "Flexible Sensor and Deep Learning-Based Tactile Recognition"
-        start_date: "2024"
-        end_date: "2026"
-        summary: "Research project at NJUPT on a neutral-axis Ti₃C₂Tₓ/GO sandwich sensor for tactile sensing with reduced bending interference."
-        highlights:
-          -
-            "Contributed to data curation, formal analysis, and manuscript preparation."
-          -
-            "The project resulted in a publication in Sensors in 2026."
+    - name: Flexible Sensor and Deep Learning Tactile Recognition
+      start_date: '2024'
+      end_date: '2026'
+      highlights:
+      - Fabricated MXene/GO sandwich sensors and performed SEM, XRD, and Raman characterization, together with electromechanical testing.
+      - Investigated bending interference and tactile recognition using a neutral-axis sensor design and a 1D convolutional neural network.
+      - Contributed to experimental analysis and manuscript preparation; published in Sensors.
+    Awards:
+    - title: First-Class University Scholarship
+      date: '2024'
+      awarder: NJUPT
+      authors:
+      - NJUPT
+    - title: First-Class University Scholarship
+      date: '2023'
+      awarder: NJUPT
+      authors:
+      - NJUPT
+    - title: First Prize, National College Mathematics Competition (Non-Mathematics, Category A)
+      date: '2024'
+      awarder: National College Mathematics Competition
+    Certificates:
+    - name: Cambridge Kunpeng Program
+      date: '2025-08-20'
+      issuer: University of Cambridge
+      summary: Short-term study at the University of Cambridge in artificial intelligence and robotic automation, supported by a full Jiangsu 
+        provincial scholarship.
+    Languages:
+    - name: Chinese
+      summary: Native
+    - name: English
+      summary: Fluent; CET-4 617/710, CET-6 613/710
+    Interests:
+    - name: Research Interests
+      keywords: Advanced IC manufacturing and semiconductor processing; flexible sensing; AI agents and scientific computing.
