@@ -42,3 +42,10 @@ textarea,
 .profile .more-info {
   font-family: "Libertinus Serif", "Times New Roman", Times, serif !important;
 }
+
+figure.cover figcaption {
+  font-family: inherit !important;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.5rem;
+}

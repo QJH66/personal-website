@@ -2,7 +2,7 @@
 layout: book-review
 title: 围城
 author: 钱钟书
-cover: assets/img/book_covers/wei_cheng.svg
+cover: assets/img/book_covers/wei_cheng.jpg
 categories: classics novels
 date: 2026-09-25
 started: 2026-09-25
