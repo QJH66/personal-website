@@ -1,5 +1,5 @@
 cv:
-  name: Clover_Qijihao
+  name: Qijiahao
   location: Nanjing, China
   email: 13951705697@163.com
   website: https://qjh66.github.io/personal-website/
@@ -53,6 +53,8 @@ cv:
     Selected Awards:
       - label: 2023, 2024
         details: First-Class University Scholarship, NJUPT
+      - label: 2023, 2024
+        details: Merit Student Award, NJUPT
       - label: '2024'
         details: First Prize, National College Mathematics Competition (Non-Mathematics, Category A)
     International Study:
@@ -67,6 +69,9 @@ cv:
         details: Fluent; CET-4 617/710, CET-6 613/710
     Research Interests:
       - Advanced IC manufacturing and semiconductor processing; flexible sensing; AI agents and scientific computing.
+    Skills:
+      - label: Programming and Software
+        details: Proficient in Python, Origin, MATLAB, and COMSOL.
 design:
   theme: sb2nov
   page:
