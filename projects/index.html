@@ -4,124 +4,7 @@
   }
 </style> <link rel="stylesheet" href="/personal-website/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="/personal-website/assets/css/libertinus.css"> <link defer rel="stylesheet" href="/personal-website/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/personal-website/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://qjh66.github.io/personal-website/projects/"> <script src="/personal-website/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/personal-website/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/personal-website/"> <span class="font-weight-bold">Jiahao</span> Qi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/personal-website/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/personal-website/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/people/">people </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">Picks </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/personal-website/books/">Bookshelf</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/personal-website/links/">Useful Links</a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">projects</h1> <p class="post-description">Selected work in flexible electronics, semiconductor devices, and intelligent sensing.</p> </header> <article> <style>
-  .project-index-intro {
-    max-width: 760px;
-    margin: 0.2rem 0 2rem;
-    color: var(--global-text-color-light);
-    font-size: 1.04rem;
-    line-height: 1.7;
-  }
-
-  .project-feature-card {
-    display: grid;
-    grid-template-columns: 0.95fr 1.05fr;
-    overflow: hidden;
-    margin: 1rem 0 2.2rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 16px;
-    color: inherit;
-    text-decoration: none;
-    background: var(--global-bg-color);
-    transition:
-      transform 0.2s ease,
-      border-color 0.2s ease,
-      box-shadow 0.2s ease;
-  }
-
-  .project-feature-card:hover {
-    transform: translateY(-3px);
-    border-color: var(--global-theme-color);
-    color: inherit;
-    text-decoration: none;
-    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.06);
-  }
-
-  .project-feature-visual {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 260px;
-    padding: 1.25rem;
-    background: rgba(127, 127, 127, 0.045);
-  }
-
-  .project-feature-visual img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-
-  .project-feature-copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem 2.1rem;
-  }
-
-  .project-kicker {
-    margin-bottom: 0.6rem;
-    color: var(--global-text-color-light);
-    font-size: 0.76rem;
-    font-weight: 600;
-    letter-spacing: 0.11em;
-    text-transform: uppercase;
-  }
-
-  .project-feature-copy h2 {
-    margin: 0 0 0.75rem;
-    font-size: 1.75rem;
-    line-height: 1.25;
-  }
-
-  .project-feature-copy p {
-    margin-bottom: 1.1rem;
-    color: var(--global-text-color-light);
-    line-height: 1.65;
-  }
-
-  .project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .project-tag {
-    padding: 0.22rem 0.6rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    color: var(--global-text-color-light);
-    font-size: 0.78rem;
-  }
-
-  .project-view {
-    display: inline-block;
-    width: fit-content;
-    color: var(--global-theme-color);
-    font-size: 0.92rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .project-view:hover {
-    text-decoration: underline;
-  }
-
-  @media (max-width: 760px) {
-    .project-feature-card {
-      grid-template-columns: 1fr;
-    }
-
-    .project-feature-visual {
-      min-height: auto;
-    }
-
-    .project-feature-copy {
-      padding: 1.5rem;
-    }
-  }
-</style> <p class="project-index-intro"> A small collection of projects where I explore how materials, device structures, and intelligent methods can work together. </p> <div class="project-feature-card"> <div class="project-feature-visual"> <img src="/personal-website/assets/img/projects/sensor-structure.jpg" alt="Ecoflex and Ti3C2Tx/GO sandwich flexible sensor structure" loading="eager"> </div> <div class="project-feature-copy"> <div class="project-kicker">Research · Flexible Electronics</div> <h2>Bending-Insensitive Flexible Tactile Sensor</h2> <p> A neutral-axis Ecoflex/Ti₃C₂Tₓ/GO sandwich sensor designed to suppress bending interference while preserving clear responses to stretching and pressing. </p> <div class="project-tags"> <span class="project-tag">Flexible Electronics</span> <span class="project-tag">MXene / GO</span> <span class="project-tag">Neutral Axis</span> <span class="project-tag">Sensors 2026</span> </div> <a class="project-view" href="/personal-website/projects/flexible-tactile-sensor/">View project →</a> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jiahao Qi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/personal-website/"> <span class="font-weight-bold">Jiahao</span> Qi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/personal-website/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/personal-website/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal-website/people/">people </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">Picks </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/personal-website/books/">Bookshelf</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/personal-website/links/">Useful Links</a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">projects</h1> <p class="post-description">Selected work in flexible electronics, semiconductor devices, and intelligent sensing.</p> </header> <article> <link rel="stylesheet" href="/personal-website/assets/css/portfolio.css"> <div class="portfolio-feature"> <a class="portfolio-visual" href="/personal-website/projects/flexible-tactile-sensor/" aria-label="View flexible tactile sensor project"> <img src="/personal-website/assets/img/projects/sensor-structure.png" alt="柔性夹层传感器结构" width="1043" height="388" loading="eager"> <img src="/personal-website/assets/img/projects/neutral-axis.png" alt="中性轴设计原理" width="1061" height="382" loading="lazy"> </a> <div class="portfolio-copy"> <p class="sensor-eyebrow">Research · Flexible Electronics</p> <h2><a href="/personal-website/projects/flexible-tactile-sensor/">Bending-Insensitive Flexible Tactile Sensor</a></h2> <p>通过中性轴夹层设计降低弯曲干扰，保持对拉伸和按压的有效响应。</p> <div class="sensor-tags"> <span>MXene/GO</span><span>Neutral Axis</span><span>Sensors 2026</span> </div> <a href="/personal-website/projects/flexible-tactile-sensor/">View project →</a> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jiahao Qi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -208,7 +91,7 @@ ninja.data = [{
         },
       },{id: "books-围城",
           title: '围城',
-          description: "",
+          description: "钱钟书 · 正在阅读",
           section: "Books",handler: () => {
               window.location.href = "/personal-website/books/wei_cheng/";
             },},{id: "news-i-began-my-undergraduate-studies-at-njupt",
@@ -225,7 +108,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bending-insensitive-flexible-tactile-sensor",
           title: 'Bending-Insensitive Flexible Tactile Sensor',
-          description: "Neutral-axis Ecoflex/Ti₃C₂Tₓ/GO sensor for robust tactile sensing under bending.",
+          description: "基于中性轴设计的 Ecoflex/MXene-GO 柔性触觉传感器。",
           section: "Projects",handler: () => {
               window.location.href = "/personal-website/projects/flexible-tactile-sensor/";
             },},{id: "teachings-data-science-fundamentals",
