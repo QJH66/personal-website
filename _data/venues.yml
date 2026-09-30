@@ -7,3 +7,7 @@
 
 "Vision":
   color: "#009f36"
+
+"Sensors":
+  url: https://www.mdpi.com/journal/sensors
+  color: "#007c91"
