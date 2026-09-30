@@ -99,9 +99,16 @@ nav_order: 3
   }
 
   .project-view {
+    display: inline-block;
+    width: fit-content;
     color: var(--global-theme-color);
     font-size: 0.92rem;
     font-weight: 600;
+    text-decoration: none;
+  }
+
+  .project-view:hover {
+    text-decoration: underline;
   }
 
   @media (max-width: 760px) {
@@ -123,7 +130,7 @@ nav_order: 3
   A small collection of projects where I explore how materials, device structures, and intelligent methods can work together.
 </p>
 
-<a class="project-feature-card" href="{{ '/projects/flexible-tactile-sensor/' | relative_url }}">
+<div class="project-feature-card">
   <div class="project-feature-visual">
     <img
       src="{{ '/assets/img/projects/sensor-structure.jpg' | relative_url }}"
@@ -143,6 +150,6 @@ nav_order: 3
       <span class="project-tag">Neutral Axis</span>
       <span class="project-tag">Sensors 2026</span>
     </div>
-    <span class="project-view">View project →</span>
+    <a class="project-view" href="{{ '/projects/flexible-tactile-sensor/' | relative_url }}">View project →</a>
   </div>
-</a>
+</div>
