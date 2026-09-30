@@ -6,7 +6,7 @@ subtitle: 'School of IC, ZJU <img src="https://www.zju.edu.cn/_upload/article/im
 
 profile:
   align: right
-  image: 首页头像.png
+  image: jiahao-qi.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Hangzhou, China</p>
