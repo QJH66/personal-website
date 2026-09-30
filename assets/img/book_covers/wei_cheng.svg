@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600" role="img" aria-labelledby="title desc">
+  <title id="title">围城 — 钱钟书</title>
+  <desc id="desc">A simple typographic reading card for Fortress Besieged.</desc>
+  <rect width="400" height="600" fill="#f3efe6"/>
+  <rect x="20" y="20" width="360" height="560" fill="none" stroke="#46554f" stroke-width="2"/>
+  <path d="M80 365V440H320V365M105 365V340H145V365H180V340H220V365H255V340H295V365" fill="none" stroke="#46554f" stroke-width="3"/>
+  <text x="200" y="190" text-anchor="middle" font-family="Noto Serif SC, SimSun, serif" font-size="76" fill="#273c34">围城</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Noto Serif SC, SimSun, serif" font-size="26" fill="#46554f">钱钟书</text>
+  <text x="200" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="2" fill="#46554f">FORTRESS BESIEGED</text>
+</svg>
