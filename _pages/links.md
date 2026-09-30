@@ -131,3 +131,5 @@ nav: false
     </a>
   </div>
 </div>
+
+<!-- picks-page -->
