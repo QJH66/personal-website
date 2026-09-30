@@ -1,5 +1,5 @@
 cv:
-  name: Clover_Qijihao
+  name: Qijiahao
   label: Final-Year Undergraduate · Incoming Master’s Student
   email: 13951705697@163.com
   location: Nanjing, China
@@ -65,6 +65,9 @@ cv:
       awarder: NJUPT
       authors:
       - NJUPT
+    - title: Merit Student Award
+      date: 2023, 2024
+      awarder: NJUPT
     - title: First Prize, National College Mathematics Competition (Non-Mathematics, Category A)
       date: '2024'
       awarder: National College Mathematics Competition
@@ -82,3 +85,7 @@ cv:
     Interests:
     - name: Research Interests
       keywords: Advanced IC manufacturing and semiconductor processing; flexible sensing; AI agents and scientific computing.
+    Skills:
+    - name: Programming and Software
+      level: Proficient
+      keywords: [Python, Origin, MATLAB, COMSOL]

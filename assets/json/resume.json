@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Clover_Qijihao",
+    "name": "Qijiahao",
     "label": "Final-Year Undergraduate · Incoming Master’s Student",
     "email": "13951705697@163.com",
     "location": {
@@ -64,6 +64,11 @@
       ]
     },
     {
+      "title": "Merit Student Award",
+      "date": "2023, 2024",
+      "awarder": "NJUPT"
+    },
+    {
       "title": "First Prize, National College Mathematics Competition (Non-Mathematics, Category A)",
       "date": "2024",
       "awarder": "National College Mathematics Competition"
@@ -118,6 +123,18 @@
       ],
       "startDate": "2024",
       "endDate": "2026"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming and Software",
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "Origin",
+        "MATLAB",
+        "COMSOL"
+      ]
     }
   ]
 }
