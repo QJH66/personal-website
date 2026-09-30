@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - QJH66
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - QJH66/ai-agent-learning
+  - QJH66/personal-website
+  - QJH66/QJH66.github.io
