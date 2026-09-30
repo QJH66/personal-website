@@ -51,6 +51,37 @@ latest_posts:
       margin: 0 auto 1.5rem;
     }
   }
+
+  .social .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    line-height: 1;
+  }
+
+  .social .contact-icons > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    line-height: 1;
+  }
+
+  .social .contact-icons > a i {
+    display: block;
+    line-height: 1;
+  }
+
+  .social .contact-icons > a svg,
+  .social .contact-icons > a img {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0;
+    vertical-align: middle;
+  }
 </style>
 
 👋 **Hi, I’m Jiahao Qi.**
